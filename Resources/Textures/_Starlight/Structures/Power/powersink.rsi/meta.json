@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Made by O9mansionboy",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "powersink"
+    },
+    {
+      "name": "static"
+    },
+    {
+      "name": "powersink-oc0"
+    },
+    {
+      "name": "powersink-og1"
+    },
+    {
+      "name": "powersink-og2"
+    },
+    {
+      "name": "powersink-og3"
+    },
+    {
+      "name": "powersink-oc1",
+      "delays": [
+        [
+          0.5,
+          0.5
+        ]
+      ]
+    },
+    {
+      "name": "powersink-oc2",
+      "delays": [
+        [
+          0.5,
+          0.5
+        ]
+      ]
+    },
+    {
+      "name": "powersink-oc3",
+      "delays": [
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  ]
+}
