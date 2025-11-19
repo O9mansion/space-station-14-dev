@@ -1,0 +1,25 @@
+- type: entity
+  id: PowerSinkSellable
+  name: Power Sink
+  description: Pump power into it AND MAKE MONEY!!!
+  components:
+    - type: Sprite
+      sprite: _Starlight/Structures/Power/powersink.rsi
+      state: static
+    - type: Anchorable
+    - type: Pullable
+    - type: Physics
+      bodyType: Static
+      fixtures:
+        - shape:
+            !type:PhysShapeAabb
+            bounds: "-0.5,-0.5,0.5,0.5"
+          density: 100
+          mask:
+            - MachineMask
+          layer:
+            - MachineLayer
+    - type: Damageable
+      damageContainer: StructuralInorganic
+    - type: Placement
+      mode: SnapgridCenter

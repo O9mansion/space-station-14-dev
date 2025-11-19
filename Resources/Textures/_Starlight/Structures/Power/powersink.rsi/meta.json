@@ -26,31 +26,13 @@
       "name": "powersink-og3"
     },
     {
-      "name": "powersink-oc1",
-      "delays": [
-        [
-          0.5,
-          0.5
-        ]
-      ]
+      "name": "powersink-oc1"
     },
     {
-      "name": "powersink-oc2",
-      "delays": [
-        [
-          0.5,
-          0.5
-        ]
-      ]
+      "name": "powersink-oc2"
     },
     {
-      "name": "powersink-oc3",
-      "delays": [
-        [
-          1,
-          1
-        ]
-      ]
+      "name": "powersink-oc3"
     }
   ]
 }
