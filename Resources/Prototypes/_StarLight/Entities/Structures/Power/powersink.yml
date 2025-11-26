@@ -6,20 +6,31 @@
     - type: Sprite
       sprite: _Starlight/Structures/Power/powersink.rsi
       state: static
+
+    - type: Clickable
+    - type: InteractionOutline
+
+    - type: Transform
+      anchored: false
+
     - type: Anchorable
     - type: Pullable
+
     - type: Physics
       bodyType: Static
       fixtures:
         - shape:
             !type:PhysShapeAabb
             bounds: "-0.5,-0.5,0.5,0.5"
-          density: 100
           mask:
             - MachineMask
           layer:
             - MachineLayer
+            - Interactible
+          density: 50
+
     - type: Damageable
       damageContainer: StructuralInorganic
+
     - type: Placement
       mode: SnapgridCenter
